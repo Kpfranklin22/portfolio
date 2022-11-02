@@ -6,7 +6,6 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    background-color: blanchedalmond;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -79,8 +78,9 @@ body {
 
 .image-gallery {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .first-example {
@@ -88,7 +88,7 @@ body {
     flex-direction:column;
     justify-content:center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     border-style: solid;
     border-width: 1px;
@@ -128,4 +128,21 @@ body {
 .footer ul li{
   padding-left: 50px;
   padding-right: 50px;
+}
+
+
+body {
+  background-color: lavender;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  body {
+    background-color: blanchedalmond;
+  }
 }
