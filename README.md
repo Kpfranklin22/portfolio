@@ -13,4 +13,3 @@ position within their organization
 
 https://kpfranklin22.github.io/portfolio/
 
-https://github.com/Kpfranklin22
